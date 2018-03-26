@@ -1,14 +1,10 @@
 class Reptilia {
     constructor() {
-        venomous: true
+        this.venomous = true;
     }
 
-    venomous() {
+   get isVenomous() {
         return this.venomous;
-    }
-
-    get isVenomous() {
-        this.isVenomous();
     }
 }
 export default Reptilia;
